@@ -1,2 +1,6 @@
 Hello Linux!
+This is my first project.
+
+Hello again Linux!
+I am now editing the file.
 
