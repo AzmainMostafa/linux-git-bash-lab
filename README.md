@@ -8,7 +8,6 @@ This is the first project of my 12-month cybersecurity roadmap.
 -  Creating and editing files from the command line
 -  Using Git for version control
 -  Pushing my first project to GitHub
--  Editing the files from Linux terminal
 
 ##  Tools Used
 - Kali Linux (VirtualBox)
