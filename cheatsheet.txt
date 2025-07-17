@@ -1,0 +1,84 @@
+# Linux, Git, and Bash Lab – Cheatsheet
+# Author: Azmain Mostafa
+# Project_1
+
+=====================
+ Bash / Linux Basics
+=====================
+
+pwd
+- Show current directory path
+
+ls
+- List files and folders in current directory
+
+cd <folder>
+- Move into a folder
+
+mkdir <folder>
+- Create a new folder
+
+touch <filename>
+- Create a blank file
+
+nano <filename>
+- Open a file in terminal-based text editor
+  - Ctrl + O → Save
+  - Ctrl + X → Exit
+
+================
+ Git Commands
+================
+
+git config --global user.name "Your Name"
+- Set your Git username (for commits)
+
+git config --global user.email "you@email.com"
+- Set your Git email (matches GitHub)
+
+git init
+- Start a new Git repository
+
+git add .
+- Stage all files to be committed
+
+git commit -m "Commit message"
+- Save a snapshot of staged files
+
+git remote add origin <repo-url>
+- Connect your local project to a GitHub repo
+
+git branch -M main
+- Rename branch to 'main'
+
+git push -u origin main
+- Push your commits to GitHub
+
+git status
+- Show current Git state (tracked, ignored, uncommitted)
+
+=======================
+.gitignore & Security
+=======================
+
+nano .gitignore
+- Open (or create) a .gitignore file
+
+Add this to .gitignore to ignore a sensitive file:
+API key
+
+==================
+ Project Structure
+==================
+
+linux-lab/
+├── first.txt         # First file created in Bash
+├── README.md         # Project overview and summary
+├── .gitignore        # Prevents secrets from being tracked
+└── cheatsheet.txt    # Command reference (this file)
+
+====================
+ Final Tip
+====================
+Never upload sensitive files like API keys to GitHub!
+Always use .gitignore to exclude them.
